@@ -1,5 +1,12 @@
-export default function App() {
+import { Button } from "./components/Button";
+
+export function App() {
   return (
-    <p>Ingnite Timer</p>
+    <>
+      <Button color="primary"/>
+      <Button color="secondary"/>
+      <Button color="danger"/>
+      <Button />
+    </>
   );
 };
